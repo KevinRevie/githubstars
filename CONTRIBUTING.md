@@ -5,7 +5,7 @@
 A bug is a _demonstrable problem_ that is caused by the code in the
 repository.
 
-Please read the following guidelines before you [report an issue](https://github.com/h5bp/mobile-boilerplate/issues):
+Please read the following guidelines before you [report an issue](https://github.com/kevinrevie/githubstars/issues):
 
 1. **Use the GitHub issue search** &mdash; check if the issue has already been
    reported. If it has been, please comment on the existing issue.
@@ -48,7 +48,7 @@ details will help people to assess and fix any potential bugs.
 A good bug report shouldn't leave people needing to chase you up to get further
 information that is required to assess or fix the bug.
 
-**[File a bug report](https://github.com/h5bp/mobile-boilerplate/issues)**
+**[File a bug report](https://github.com/kevinrevie/githubstars/issues)**
 
 
 ## Pull requests
@@ -66,10 +66,10 @@ project:
 1. [Fork](http://help.github.com/fork-a-repo/) the project.
 
 2. Clone your fork (`git clone
-   https://github.com/<your-username>/mobile-boilerplate.git`).
+   https://github.com/<your-username>/githubstars.git`).
 
 3. Add an `upstream` remote (`git remote add upstream
-   https://github.com/h5bp/mobile-boilerplate.git`).
+   https://github.com/kevinrevie/githubstars.git`).
 
 4. Get the latest changes from upstream (e.g. `git pull upstream
    <dev-branch>`).
