@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>BATTLE OF THE GITHUB STARS</title>
+        <meta name="description" content="Compare the statistics (star count, watcher count, fork count) for each of the GitHub repositories">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" sizes="196x196" href="img/touch/touch-icon-196x196.png">
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">
+
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+
+        <!-- For iOS web apps. -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="BATTLE OF THE GITHUB STARS">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="page-header">BATTLE OF THE GITHUB STARS</div>
+            <div class="page-description">Compare the statistics (star count, watcher count, fork count) for each of the GitHub repositories.</div>
+            <div class="normal-form">
+                <p class="required">* - denotes required field</p>
+                <form action="index.html" method="get">
+                    <fieldset>
+                        <div class="form-field">
+                            <div class="error" id="fielderror1"></div>
+                            <label for="search">GitHub URL 1 <span class="required">*</span></label>
+                            <input type="text" class="text" name="github_url_1" id="github_url_1" />
+                            <div class="input-format">(format: https://github.com/[USER]/[REPOSITORY])</div>
+                        </div>
+                        <div class="form-field">
+                            <div class="error" id="fielderror2"></div>
+                            <label for="search">GitHub URL 2 <span class="required">*</span></label>
+                            <input type="text" class="text" name="github_url_2" id="github_url_2" />
+                            <div class="input-format">(format: https://github.com/[USER]/[REPOSITORY])</div>
+                        </div>
+                        <div class="actions">
+                            <input class="btn large green" type="submit" value="Compare" id="compare-button" />
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="row" id="stats-result">
+                <div class="column" id="result1"></div>
+                <div class="column" id="result2"></div>
+            </div>
+            <div id="loader-gif">
+                <img src="img/gif-load.gif">
+            </div>
+        </div>
+        <!-- Javascript libraries -->
+        <script src="js/vendor/jquery-2.1.0.min.js"></script>
+        <script src="js/helper.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>

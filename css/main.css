@@ -1,0 +1,335 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #f7f7f7;
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: auto auto;
+    color: #252525;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#container {
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	width: 300px;
+	zoom: 1;
+}
+
+.page-header {
+  text-align: center;
+  color: #6e909f;
+  font-weight: 500;
+  font-style: normal;
+  min-height: 28px;
+  font-size: 25px;
+  line-height: 28px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+p.required {
+    color: #6f6f6f;
+    margin-bottom: 0;
+}
+.page-description {
+
+}
+
+.normal-form { margin: 10px; }
+.normal-form .form-field { margin-top: 10px; }
+.normal-form .actions {background-color: transparent; border-width: 0; margin: 15px 0 0 160px; padding: 0;}
+.normal-form .privacylink {background-color: transparent; border-width: 0; margin: 20px 0 0 165px; padding: 0;}
+.normal-form .actions .link  { margin-left: 10px; }
+.normal-form select {color: #252525; font-size: 11px; height: 19px; line-height: 11px; padding: 0 0 0 4px; width: 280px;}
+.normal-form .text, .normal-form .textarea {border-color: #CDCDCD; font-size: 11px; height: 24px; width: 280px;}
+.normal-form .textarea  { width: 460px; height: 120px; }
+.normal-form .checkboxform { padding-left: 164px; text-align: left; padding-top: 3px; }
+body.manage-preferences .normal-form fieldset#community-list .checkboxform { padding-left: 0; margin-bottom: 10px; }
+.normal-form label { width: 160px; text-align: left; padding-top: 3px; padding-right: 4px; }
+.normal-form label.checkbox { width: auto; margin: 0 15px 0 0; }
+.normal-form label.checkbox span  { padding-left: 4px; }
+.normal-form label.no-float { float: none; display: block; padding-bottom: 5px; }
+.normal-form label.longer { width: 220px; }
+.normal-form .btn.large { margin: 0; }
+.normal-form .btn.large.green { color: #fff; text-decoration: none; background: #94c947 url(../img/icon-btn-arrow-green.png) no-repeat right 50%; }
+form .required  { font-weight: bold; }
+form  p { padding-bottom: 0!important; }
+form li { color: #252525; margin-bottom: 9px; }
+.normal-form .divider { margin-top:15px; margin-bottom:15px; }
+.normal-form input[value="%"] { text-align: right;}
+.normal-form label.checkbox-label { width: auto; float: none; padding-right: 20px; }
+.input-format { font-style: italic; color: #6f6f6f; }
+
+.normal-form .btn.large {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.btn.large {
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 3px;
+    padding-left: 11px;
+    padding-right: 26px;
+    padding-top: 2px;
+    text-transform: uppercase;
+    width: auto;
+}
+.normal-form .btn.large.green {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #94c947;
+    background-origin: padding-box;
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #fff;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+form .required {
+    font-weight: bold;
+}
+
+.error { color: red; }
+
+#result1 { width: 48%; float: left; }
+#result2 { width: 48%; float: left; }
+
+#stats-result {margin: 2px;}
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/* Prevent callout */
+
+.nocallout {
+    -webkit-touch-callout: none;
+}
+
+.pressed {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* A hack for HTML5 contenteditable attribute on mobile */
+
+textarea[contenteditable] {
+    -webkit-appearance: none;
+}
+
+/* A workaround for S60 3.x and 5.0 devices which do not animated gif images if
+   they have been set as display: none */
+
+.gifhidden {
+    position: absolute;
+    left: -100%;
+}
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    direction: ltr;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -999em;
+}
+
+.ir br {
+    display: none;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: h5bp.com/q
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+
+@media only screen and (min-width: 481px) {
+.page-header {
+    background-size: cover;
+    min-height: 35px;
+    font-size: 30px;
+    line-height: 35px; 
+} 
+#container { width: 479px; }
+}
+
+@media only screen and (min-width: 768px) {
+.page-header {
+    background-size: cover;
+    min-height: 48px;
+    font-size: 42px;
+    line-height: 48px;
+} 
+#container { width: 760px; padding-left: 20px; padding-right: 20px; }
+}
+@media only screen and (min-width: 970px) {
+#container { width: 960px; padding-left: 20px; padding-right: 20px; }
+}
+
