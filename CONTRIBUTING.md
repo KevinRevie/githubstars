@@ -1,8 +1,4 @@
-# Contributing to Mobile Boilerplate
-
-♥ [Mobile Boilerplate](http://html5boilerplate.com/mobile/) and want to get involved?
-Thanks! There are plenty of ways you can help!
-
+﻿# Contributing to githubstars
 
 ## Reporting issues
 
@@ -57,7 +53,7 @@ information that is required to assess or fix the bug.
 
 ## Pull requests
 
-Good pull requests — patches, improvements, new features — are a fantastic
+Good pull requests patches, improvements, new features are a fantastic
 help. They should remain focused in scope and avoid containing unrelated
 commits.
 

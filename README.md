@@ -1,53 +1,19 @@
-# [Mobile Boilerplate](http://html5boilerplate.com/mobile/)
+# [Battle of the GitHub Stars](https://github.com/kevinrevie/githubstars)
 
-Mobile Boilerplate is a professional front-end template that helps you build
-fast and robust mobile web applications. Spend more time developing and less
-time reinventing the wheel.
+Battle of the GitHub Stars is a JavaScript front-end page that lets you compare the statistics of two GitHub repositories.
 
-* Source: [https://github.com/h5bp/mobile-boilerplate](https://github.com/h5bp/mobile-boilerplate)
-* Homepage: [http://html5boilerplate.com/mobile/](http://html5boilerplate.com/mobile/)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+* Source: [https://github.com/kevinrevie/githubstars](https://github.com/kevinrevie/githubstars)
 
 
 ## Quick start
 
-Clone the git repo - `git clone git://github.com/h5bp/mobile-boilerplate.git` -
-or [download it](https://github.com/h5bp/mobile-boilerplate/zipball/master)
+Clone the git repo - `git clone git://github.com/kevinrevie/githubstars.git` -
+or [download it](https://github.com/kevinrevie/githubstars/zipball/master)
 
 
 ## Features
 
-* Mobile browser optimizations.
-* CSS normalizations and common bug fixes.
-* The latest jQuery.
-* A custom Modernizr build for feature detection and a polyfill for CSS Media
-  Queries.
-* Home page icon for Android, iOS, Nokia, Firefox
-* Cross-browser viewport optimization for Android, iOS, Mobile IE, Nokia,
-  and Blackberry.
-* Open Web App support for Firefox for Android and Firefox OS
-* Better font rendering in Mobile IE.
-* iPhone web app meta.
-* INSTANT button click event.
-* Textarea autogrow plugin.
-* Hide URL bar method.
-* Prevent form zoom onfocus method.
-* Mobile site redirection.
-* User Agent Detection.
-* An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for
-  Grade-A performance.
-* Cross-domain Ajax.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
-
-
-## Documentation
-
-Take a look at the [documentation table of contents](doc/README.md). This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation you
-want to write about your project.
+* Compare the statistics of two GitHub repositories
 
 
 ## Contributing
